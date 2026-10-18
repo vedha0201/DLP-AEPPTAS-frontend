@@ -7,6 +7,7 @@ export default defineConfig({
     server: { entry: "server" },
   },
   vite: {
+    base: "/DLP-AEPPTAS-frontend/",
     server: {
       proxy: {
         // Forward all /api requests from the Vite dev server to the Express backend.
